@@ -1,0 +1,16 @@
+{
+  "name": "02_operatory-zmiany-pol",
+  "version": "1.0.0",
+  "description": "Operatory zmiany pól",
+  "main": "index.js",
+  "scripts": {
+    "populate": "node --experimental-modules populate.js",
+    "movie-stats": "node --experimental-modules movie-stats.js"
+  },
+  "author": "",
+  "type": "module",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^3.5.5"
+  }
+}

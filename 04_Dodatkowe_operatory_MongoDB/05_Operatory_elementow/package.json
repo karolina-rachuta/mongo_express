@@ -1,0 +1,16 @@
+{
+  "name": "05_operatory-elementow",
+  "version": "1.0.0",
+  "description": "Operatory elementów",
+  "main": "index.js",
+  "scripts": {
+    "populate": "node --experimental-modules populate.js",
+    "migration-test": "node --experimental-modules migration.js"
+  },
+  "author": "",
+  "type": "module",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^3.5.5"
+  }
+}

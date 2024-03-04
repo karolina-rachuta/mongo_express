@@ -1,0 +1,16 @@
+{
+  "name": "01-modyfikacja-danych-pojedynczy",
+  "version": "1.0.0",
+  "description": "Modyfikacja danych - pojedynczy dokument",
+  "main": "index.js",
+  "scripts": {
+    "populate": "node --experimental-modules populate.js",
+    "update-number": "node --experimental-modules update-number.js"
+  },
+  "author": "",
+  "type": "module",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^3.5.4"
+  }
+}

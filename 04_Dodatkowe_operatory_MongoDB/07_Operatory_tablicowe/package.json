@@ -1,0 +1,16 @@
+{
+  "name": "07_operatory-tablicowe",
+  "version": "1.0.0",
+  "description": "Operatory tablicowe",
+  "main": "index.js",
+  "scripts": {
+    "populate": "node --experimental-modules populate.js",
+    "forum-users": "node --experimental-modules forumUsers.js"
+  },
+  "author": "",
+  "type": "module",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^3.5.5"
+  }
+}

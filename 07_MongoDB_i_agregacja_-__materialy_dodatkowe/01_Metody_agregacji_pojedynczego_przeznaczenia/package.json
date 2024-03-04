@@ -1,0 +1,16 @@
+{
+  "name": "01_agregacja-pojedynczego-przeznaczenia",
+  "version": "1.0.0",
+  "description": "Metody agregacji pojedynczego przeznaczenia",
+  "main": "index.js",
+  "scripts": {
+    "populate": "node --experimental-modules populate.js",
+    "animal-forum": "node --experimental-modules animal-forum.js"
+  },
+  "author": "",
+  "type": "module",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^3.5.5"
+  }
+}

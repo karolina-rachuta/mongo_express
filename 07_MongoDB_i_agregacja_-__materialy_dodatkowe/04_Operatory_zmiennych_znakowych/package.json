@@ -1,0 +1,16 @@
+{
+  "name": "04_operatory-zmiennych-znakowych",
+  "version": "1.0.0",
+  "description": "Operatory zmiennych znakowych",
+  "main": "index.js",
+  "scripts": {
+    "populate": "node --experimental-modules populate.js",
+    "digital-signage": "node --experimental-modules digital-signage.js"
+  },
+  "author": "",
+  "type": "module",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^3.5.5"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "01_operatory-wyboru-danych",
+  "version": "1.0.0",
+  "description": "Operatory wyboru danych",
+  "main": "index.js",
+  "scripts": {
+    "populate": "node --experimental-modules populate.js",
+    "flower-shop": "node --experimental-modules flower-shop.js"
+  },
+  "author": "",
+  "type": "module",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^3.5.5"
+  }
+}

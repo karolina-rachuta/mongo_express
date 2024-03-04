@@ -1,0 +1,16 @@
+{
+  "name": "03_operatory-dat",
+  "version": "1.0.0",
+  "description": "Operatory dat",
+  "main": "index.js",
+  "scripts": {
+    "populate": "node --experimental-modules populate.js",
+    "promote-supporters": "node --experimental-modules promote-supporters.js"
+  },
+  "author": "",
+  "type": "module",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^3.5.5"
+  }
+}

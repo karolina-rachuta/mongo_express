@@ -1,0 +1,7 @@
+exercises:
+    01_Przygotowanie: { max_points: 0, disabled: true }
+    02_Etag: { max_points: 0, disabled: true }
+    '03_Rate limit': { max_points: 0, disabled: true }
+    '04_Powtórzony tekst': { max_points: 0, disabled: true }
+    '05_Ilość słów w tekście - zadanie dodatkowe': { max_points: 0, disabled: true }
+    '06_REST - zadanie dodatkowe': { max_points: 0, disabled: true }

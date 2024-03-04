@@ -1,0 +1,7 @@
+exercises:
+    '01_MongoDB - adapter': { max_points: 0, disabled: true }
+    '02_Odczyt jednego dokumentu': { max_points: 0, disabled: true }
+    '03_Kursory - iteracja': { max_points: 0, disabled: true }
+    '04_Sortowanie wyników - zadanie dodatkowe': { max_points: 0, disabled: true }
+    '05_Stronicowanie - zadanie dodatkowe': { max_points: 0, disabled: true }
+    '06_Dodawanie wielu dokumentów - zadanie dodatkowe': { max_points: 0, disabled: true }

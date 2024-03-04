@@ -1,0 +1,16 @@
+{
+  "name": "02-modyfikacja-danych-wiele",
+  "version": "1.0.0",
+  "description": "Modyfikacja danych - wiele dokumentów",
+  "main": "index.js",
+  "scripts": {
+    "populate": "node --experimental-modules populate.js",
+    "update-movies": "node --experimental-modules update-movies.js"
+  },
+  "author": "",
+  "type": "module",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^3.5.4"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "01_schematy",
+  "version": "1.0.0",
+  "description": "Schematy",
+  "main": "index.js",
+  "scripts": {
+    "populate": "echo 'Nothing to populate in this task...'",
+    "start-mongo": "nodemon --experimental-modules --es-module-specifier-resolution=node --no-warnings mongo.js",
+    "start-mongoose": "nodemon --experimental-modules --es-module-specifier-resolution=node --no-warnings mongoose.js"
+  },
+  "author": "CodersLab",
+  "license": "UNLICENSED",
+  "type": "module",
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "mongodb": "^3.5.6",
+    "mongoose": "^5.9.10",
+    "nodemon": "^2.0.3"
+  },
+  "devDependencies": {
+    "@types/hapi__joi": "^16.0.12",
+    "@types/mongodb": "^3.5.10",
+    "@types/mongoose": "^5.7.12"
+  }
+}

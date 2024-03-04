@@ -1,0 +1,16 @@
+{
+  "name": "06_operatory-wyrazen-js",
+  "version": "1.0.0",
+  "description": "Operatory wyrażeń JS",
+  "main": "index.js",
+  "scripts": {
+    "populate": "node --experimental-modules populate.js",
+    "broken-logs": "node --experimental-modules brokenLogs.js"
+  },
+  "author": "",
+  "type": "module",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^3.5.5"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "06_akumulacja-i-grupowanie",
+  "version": "1.0.0",
+  "description": "Akumulacja i grupowanie",
+  "main": "index.js",
+  "scripts": {
+    "populate": "node --experimental-modules populate.js",
+    "ecommerce": "node --experimental-modules ecommerce.js"
+  },
+  "author": "",
+  "type": "module",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^3.5.5"
+  }
+}

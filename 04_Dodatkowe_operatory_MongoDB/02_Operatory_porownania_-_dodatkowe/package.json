@@ -1,0 +1,16 @@
+{
+  "name": "02_operatory-porownania-dodatkowe",
+  "version": "1.0.0",
+  "description": "Dodatkowe operatory porównania",
+  "main": "index.js",
+  "scripts": {
+    "populate": "node --experimental-modules populate.js",
+    "albums": "node --experimental-modules albums.js"
+  },
+  "author": "",
+  "type": "module",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^3.5.5"
+  }
+}

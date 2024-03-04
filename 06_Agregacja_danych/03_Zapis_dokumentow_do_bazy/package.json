@@ -1,0 +1,16 @@
+{
+  "name": "03_zapis-dokumentow-do-bazy",
+  "version": "1.0.0",
+  "description": "Zapis dokumentów do bazy",
+  "main": "index.js",
+  "scripts": {
+    "populate": "node --experimental-modules populate.js",
+    "race-results": "node --experimental-modules race-results.js"
+  },
+  "author": "",
+  "type": "module",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^3.5.5"
+  }
+}

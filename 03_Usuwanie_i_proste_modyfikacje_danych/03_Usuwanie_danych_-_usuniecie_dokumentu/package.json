@@ -1,0 +1,16 @@
+{
+  "name": "05-usuwanie-danych-usuniecie",
+  "version": "1.0.0",
+  "description": "Usuwanie danych - usunięcie dokumentu",
+  "main": "index.js",
+  "scripts": {
+    "populate": "node --experimental-modules populate.js",
+    "clean-orders": "node --experimental-modules clean-orders.js"
+  },
+  "author": "",
+  "type": "module",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^3.5.5"
+  }
+}

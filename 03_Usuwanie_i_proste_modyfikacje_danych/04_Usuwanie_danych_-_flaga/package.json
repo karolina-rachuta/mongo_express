@@ -1,0 +1,16 @@
+{
+  "name": "04-usuwanie-danych-flaga",
+  "version": "1.0.0",
+  "description": "Usuwanie danych - flagowanie dokumentów",
+  "main": "index.js",
+  "scripts": {
+    "populate": "node --experimental-modules populate.js",
+    "tasks": "node --experimental-modules tasks.js"
+  },
+  "author": "",
+  "type": "module",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^3.5.5"
+  }
+}

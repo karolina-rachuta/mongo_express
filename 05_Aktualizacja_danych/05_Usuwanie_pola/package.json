@@ -1,0 +1,16 @@
+{
+  "name": "05_usuwanie-pola",
+  "version": "1.0.0",
+  "description": "Usuwanie pola",
+  "main": "index.js",
+  "scripts": {
+    "populate": "node --experimental-modules populate.js",
+    "rodo": "node --experimental-modules rodo.js"
+  },
+  "author": "",
+  "type": "module",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^3.5.5"
+  }
+}

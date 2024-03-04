@@ -1,0 +1,16 @@
+{
+  "name": "01_operatory-porownania",
+  "version": "1.0.0",
+  "description": "Operatory porównania",
+  "main": "index.js",
+  "scripts": {
+    "populate": "node --experimental-modules populate.js",
+    "discounted": "node --experimental-modules discounted.js"
+  },
+  "author": "",
+  "type": "module",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^3.5.5"
+  }
+}

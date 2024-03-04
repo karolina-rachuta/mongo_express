@@ -1,0 +1,16 @@
+{
+  "name": "06_tablice-podstawy",
+  "version": "1.0.0",
+  "description": "Podstawy aktualizacji tablic",
+  "main": "index.js",
+  "scripts": {
+    "populate": "node --experimental-modules populate.js",
+    "depth-measurements-2": "node --experimental-modules depth-measurements-2.js"
+  },
+  "author": "",
+  "type": "module",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^3.5.5"
+  }
+}

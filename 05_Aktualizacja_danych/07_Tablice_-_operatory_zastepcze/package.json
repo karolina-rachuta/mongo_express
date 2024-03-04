@@ -1,0 +1,16 @@
+{
+  "name": "07_tablice-operatory-zastepcze",
+  "version": "1.0.0",
+  "description": "Tablice - operatory zastępcze",
+  "main": "index.js",
+  "scripts": {
+    "populate": "node --experimental-modules populate.js",
+    "course-results": "node --experimental-modules course-results.js"
+  },
+  "author": "",
+  "type": "module",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^3.5.5"
+  }
+}

@@ -1,0 +1,8 @@
+exercises:
+    '01_Operatory arytmetyczne': { max_points: 0, disabled: true }
+    '02_Operatory porównania': { max_points: 0, disabled: true }
+    '03_Zmiana wartości pola': { max_points: 0, disabled: true }
+    '04_Zmiana nazwy pól': { max_points: 0, disabled: true }
+    '05_Usuwanie pola': { max_points: 0, disabled: true }
+    '06_Tablice - podstawy': { max_points: 0, disabled: true }
+    '07_Tablice - operatory zastępcze': { max_points: 0, disabled: true }

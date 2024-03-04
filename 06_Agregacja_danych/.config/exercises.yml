@@ -1,0 +1,7 @@
+exercises:
+    '01_Operatory wyboru danych': { max_points: 0, disabled: true }
+    '02_Operatory zmiany pól': { max_points: 0, disabled: true }
+    '03_Zapis dokumentów do bazy': { max_points: 0, disabled: true }
+    '04_Operatory arytmetyczne': { max_points: 0, disabled: true }
+    '05_Operatory tablicowe': { max_points: 0, disabled: true }
+    '06_Akumulacja i grupowanie': { max_points: 0, disabled: true }

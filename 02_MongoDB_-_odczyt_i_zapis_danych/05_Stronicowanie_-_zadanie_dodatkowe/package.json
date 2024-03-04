@@ -1,0 +1,16 @@
+{
+  "name": "05_stronicowanie",
+  "version": "1.0.0",
+  "description": "Paging - stronicowanie",
+  "main": "index.js",
+  "scripts": {
+    "populate": "node --experimental-modules populate.js",
+    "tel-numbers": "node --experimental-modules tel-numbers.js"
+  },
+  "author": "",
+  "type": "module",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^3.5.5"
+  }
+}

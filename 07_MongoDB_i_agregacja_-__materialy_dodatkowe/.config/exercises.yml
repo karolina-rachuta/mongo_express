@@ -1,0 +1,5 @@
+exercises:
+    '01_Metody agregacji pojedynczego przeznaczenia': { max_points: 0, disabled: true }
+    '02_Operatory logiczne': { max_points: 0, disabled: true }
+    '03_Operatory dat': { max_points: 0, disabled: true }
+    '04_Operatory zmiennych znakowych': { max_points: 0, disabled: true }

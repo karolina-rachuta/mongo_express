@@ -1,0 +1,16 @@
+{
+  "name": "04_zmiana-nazwy-pol",
+  "version": "1.0.0",
+  "description": "Zmiana nazwy pól",
+  "main": "index.js",
+  "scripts": {
+    "populate": "node --experimental-modules populate.js",
+    "devops": "node --experimental-modules devops.js"
+  },
+  "author": "",
+  "type": "module",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^3.5.5"
+  }
+}

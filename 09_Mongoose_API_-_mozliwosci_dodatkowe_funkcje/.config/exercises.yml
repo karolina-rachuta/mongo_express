@@ -1,0 +1,7 @@
+exercises:
+    '01_Łańcuch zapytań': { max_points: 0, disabled: true }
+    '02_Właściwości wirtualne': { max_points: 0, disabled: true }
+    '03_Metody instancji modeli': { max_points: 0, disabled: true }
+    '04_Metody statyczne schematu': { max_points: 0, disabled: true }
+    '05_Hooki - zadanie dodatkowe': { max_points: 0, disabled: true }
+    '06_Scalanie dokumentów - zadanie dodatkowe': { max_points: 0, disabled: true }

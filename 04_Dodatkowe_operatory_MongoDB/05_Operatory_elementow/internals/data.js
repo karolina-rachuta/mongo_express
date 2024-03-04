@@ -1,0 +1,103 @@
+export const data = [{
+  make: 'Nissan',
+  model: 'Titan',
+  year: 2007,
+  vin: 'WBAAX13424P492822',
+  displacement: 2.8,
+  migrated: true
+}, {
+  make: 'Mazda',
+  model: 'MX-5',
+  year: '2009',
+  vin: 'JM1NC2LF1C0956164',
+  displacement: 1.8
+}, {
+  make: 'Dodge',
+  model: 'Durango',
+  year: 2009,
+  vin: 'WA1LMBFE8FD581596',
+  displacement: 2.6,
+  migrated: true
+}, {
+  make: 'Dodge',
+  model: 'Dakota Club',
+  year: '2007',
+  vin: 'WBAFU7C57BC025023',
+  displacement: 2.1
+}, {
+  make: 'Chevrolet',
+  model: 'Silverado 3500',
+  year: 2010,
+  vin: 'WBAUP7C54DV389566',
+  displacement: 2.3,
+  migrated: true
+}, {
+  make: 'Porsche',
+  model: 'Boxster',
+  year: 2006,
+  vin: 'WAUNF98P36A250777',
+  displacement: 1.6,
+  migrated: true
+}, {
+  make: 'Chevrolet',
+  model: '1500',
+  year: '1994',
+  vin: 'WAUJC68EX4A872617',
+  displacement: 1.5
+}, {
+  make: 'Audi',
+  model: 'S4',
+  year: 2000,
+  vin: '4A4AP3AU4FE820511',
+  displacement: 2.7,
+  migrated: true
+}, {
+  make: 'Audi',
+  model: 'A6',
+  year: '2002',
+  vin: 'WBADN63441G970931',
+  displacement: 1.5,
+  migrated: true
+}, {
+  make: 'Oldsmobile',
+  model: 'Bravada',
+  year: 1996,
+  vin: '1G4HR54K13U957358',
+  displacement: 2.,
+  migrated: true
+}, {
+  make: 'Honda',
+  model: 'CR-X',
+  year: 1985,
+  vin: '1C4NJCBAXDD461716',
+  displacement: 1.4,
+  migrated: true
+}, {
+  make: 'Saab',
+  model: '9000',
+  year: 1992,
+  vin: '1G6DV1EP8F0131557',
+  displacement: 2.2,
+  migrated: true
+}, {
+  make: 'Audi',
+  model: 'A8',
+  year: 2008,
+  vin: '3GYFNCEY2BS363482',
+  displacement: 2.4,
+  migrated: true
+}, {
+  make: 'Studebaker',
+  model: 'Avanti',
+  year: 1962,
+  vin: 'WAUCFAFR7EA580711',
+  displacement: 2.7,
+  migrated: true
+}, {
+  make: 'Saturn',
+  model: 'S-Series',
+  year: 1993,
+  vin: '1B3CB3HA1BD336646',
+  displacement: 1.6,
+  migrated: true
+}];

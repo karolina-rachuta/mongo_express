@@ -1,0 +1,16 @@
+{
+  "name": "04_operatory-arytmetyczne",
+  "version": "1.0.0",
+  "description": "Operatory arytmetyczne",
+  "main": "index.js",
+  "scripts": {
+    "populate": "node --experimental-modules populate.js",
+    "drone": "node --experimental-modules drone.js"
+  },
+  "author": "",
+  "type": "module",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^3.5.5"
+  }
+}

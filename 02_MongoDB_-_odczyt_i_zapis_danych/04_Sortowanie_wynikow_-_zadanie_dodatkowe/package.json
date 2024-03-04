@@ -1,0 +1,16 @@
+{
+  "name": "04_sortowanie-wynikow",
+  "version": "1.0.0",
+  "description": "Sortowanie wyników",
+  "main": "index.js",
+  "scripts": {
+    "populate": "node --experimental-modules populate.js",
+    "secret": "node --experimental-modules secret.js"
+  },
+  "author": "",
+  "type": "module",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^3.5.5"
+  }
+}

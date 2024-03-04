@@ -1,0 +1,61 @@
+export const data = [{
+  firstName: 'Gustave',
+  lastName: 'Foukx',
+  email: 'gfoukx0@cisco.com',
+  gender: 'Male',
+  ip_address: '234.248.78.0'
+}, {
+  firstName: 'Zachary',
+  lastName: 'Betjeman',
+  email: 'zbetjeman1@taobao.com',
+  gender: 'Male',
+  ip_address: '158.149.225.65'
+}, {
+  firstName: 'Cece',
+  lastName: 'Delort',
+  email: 'cdelort2@digg.com',
+  gender: 'Male',
+  ip_address: '110.3.194.198'
+}, {
+  firstName: 'Estell',
+  lastName: 'Thackston',
+  email: 'ethackston3@mozilla.com',
+  gender: 'Female',
+  ip_address: '0.252.15.231'
+}, {
+  firstName: 'Tallou',
+  lastName: 'Blunn',
+  email: 'tblunn4@freewebs.com',
+  gender: 'Female',
+  ip_address: '139.249.198.169'
+}, {
+  firstName: 'Xylia',
+  lastName: 'Buffy',
+  email: 'xbuffy5@flavors.me',
+  gender: 'Female',
+  ip_address: '78.91.156.114'
+}, {
+  firstName: 'Janine',
+  lastName: 'McCarthy',
+  email: 'jmccarthy6@kickstarter.com',
+  gender: 'Female',
+  ip_address: '105.103.5.150'
+}, {
+  firstName: 'Allistir',
+  lastName: 'Brunon',
+  email: 'abrunon7@gov.uk',
+  gender: 'Male',
+  ip_address: '71.115.53.66'
+}, {
+  firstName: 'Mycah',
+  lastName: 'Garnson',
+  email: 'mgarnson8@trellian.com',
+  gender: 'Male',
+  ip_address: '93.122.79.246'
+}, {
+  firstName: 'Morley',
+  lastName: 'Andrioli',
+  email: 'mandrioli9@surveymonkey.com',
+  gender: 'Male',
+  ip_address: '234.27.100.172'
+}];

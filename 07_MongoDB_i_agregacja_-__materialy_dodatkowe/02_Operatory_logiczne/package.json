@@ -1,0 +1,16 @@
+{
+  "name": "02_operatory-logiczne",
+  "version": "1.0.0",
+  "description": "Operatory logiczne",
+  "main": "index.js",
+  "scripts": {
+    "populate": "node --experimental-modules populate.js",
+    "course-results": "node --experimental-modules course-results.js"
+  },
+  "author": "",
+  "type": "module",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^3.5.5"
+  }
+}

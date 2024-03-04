@@ -1,0 +1,16 @@
+{
+  "name": "02_odczyt-jednego-dokumentu",
+  "version": "1.0.0",
+  "description": "Odczyt jednego dokumentu",
+  "main": "index.js",
+  "scripts": {
+    "haystack": "node --experimental-modules haystack.js",
+    "populate": "node --experimental-modules populate.js"
+  },
+  "author": "",
+  "type": "module",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^3.5.5"
+  }
+}

@@ -1,0 +1,106 @@
+export const data = [ {
+  fieldWidth: 385,
+  fieldLength: 636,
+  fieldGeneralQuality: 80.3,
+  startLatitude: -0.7241012,
+  startLongitude: 103.2086442,
+  isComplete: false
+}, {
+  fieldWidth: 229,
+  fieldLength: 8865,
+  fieldGeneralQuality: 72.0,
+  startLatitude: 16.4311476,
+  startLongitude: 103.5083998,
+  isComplete: true
+}, {
+  fieldWidth: 602,
+  fieldLength: 1737,
+  fieldGeneralQuality: 78.1,
+  startLatitude: 52.4908529,
+  startLongitude: 20.7239452,
+  isComplete: false
+}, {
+  fieldWidth: 872,
+  fieldLength: 147,
+  fieldGeneralQuality: 47.7,
+  startLatitude: 45.3481651,
+  startLongitude: 14.5032137,
+  isComplete: false
+}, {
+  fieldWidth: 308,
+  fieldLength: 3175,
+  fieldGeneralQuality: 68.8,
+  startLatitude: 9.5608923,
+  startLongitude: -73.3384471,
+  isComplete: false
+}, {
+  fieldWidth: 299,
+  fieldLength: 3561,
+  fieldGeneralQuality: 85.0,
+  startLatitude: 29.289085,
+  startLongitude: 111.189296,
+  isComplete: true
+}, {
+  fieldWidth: 876,
+  fieldLength: 5069,
+  fieldGeneralQuality: 54.7,
+  startLatitude: -22.7691646,
+  startLongitude: -43.6950804,
+  isComplete: true
+}, {
+  fieldWidth: 231,
+  fieldLength: 6663,
+  fieldGeneralQuality: 56.3,
+  startLatitude: -0.0917016,
+  startLongitude: 34.7679568,
+  isComplete: true
+}, {
+  fieldWidth: 241,
+  fieldLength: 4606,
+  fieldGeneralQuality: 61.2,
+  startLatitude: 32.864167,
+  startLongitude: 35.294547,
+  isComplete: false
+}, {
+  fieldWidth: 421,
+  fieldLength: 5312,
+  fieldGeneralQuality: 53.6,
+  startLatitude: 40.9933396,
+  startLongitude: 21.4188894,
+  isComplete: true
+}, {
+  fieldWidth: 907,
+  fieldLength: 5584,
+  fieldGeneralQuality: 56.6,
+  startLatitude: 21.955472,
+  startLongitude: 111.244529,
+  isComplete: true
+}, {
+  fieldWidth: 811,
+  fieldLength: 824,
+  fieldGeneralQuality: 65.4,
+  startLatitude: -7.2528931,
+  startLongitude: 108.1886249,
+  isComplete: false
+}, {
+  fieldWidth: 771,
+  fieldLength: 5179,
+  fieldGeneralQuality: 94.9,
+  startLatitude: '1.35317',
+  startLongitude: '173.04259',
+  isComplete: true
+}, {
+  fieldWidth: 54,
+  fieldLength: 3780,
+  fieldGeneralQuality: 76.2,
+  startLatitude: 28.578756,
+  startLongitude: 89.227769,
+  isComplete: false
+}, {
+  fieldWidth: 203,
+  fieldLength: 9812,
+  fieldGeneralQuality: 58.8,
+  startLatitude: -8.1578871,
+  startLongitude: 112.2771485,
+  isComplete: true
+} ];

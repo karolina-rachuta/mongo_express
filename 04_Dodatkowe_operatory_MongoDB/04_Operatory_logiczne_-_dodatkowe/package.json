@@ -1,0 +1,16 @@
+{
+  "name": "04_operatory-dodatkowe",
+  "version": "1.0.0",
+  "description": "Operatory dodatkowe - $not i $nor",
+  "main": "index.js",
+  "scripts": {
+    "populate": "node --experimental-modules populate.js",
+    "football": "node --experimental-modules football.js"
+  },
+  "author": "",
+  "type": "module",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^3.5.5"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "06_dodawanie-wielu-dokumentow",
+  "version": "1.0.0",
+  "description": "Dodawanie wielu dokumentów",
+  "main": "index.js",
+  "scripts": {
+    "logs": "nodemon --experimental-modules logs.js"
+  },
+  "author": "",
+  "type": "module",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^3.5.5",
+    "nodemon": "^2.0.2"
+  }
+}

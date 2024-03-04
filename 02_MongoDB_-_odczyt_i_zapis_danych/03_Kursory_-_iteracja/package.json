@@ -1,0 +1,17 @@
+{
+  "name": "03_kursory-iteracja",
+  "version": "1.0.0",
+  "description": "Kursory - iteracja",
+  "main": "index.js",
+  "scripts": {
+    "music": "node --experimental-modules music.js",
+    "populate": "node --experimental-modules populate.js"
+  },
+  "author": "",
+  "type": "module",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^3.5.5",
+    "nodemon": "^2.0.2"
+  }
+}

@@ -1,0 +1,8 @@
+exercises:
+    '01_Operatory porównania': { max_points: 0, disabled: true }
+    '02_Operatory porównania - dodatkowe': { max_points: 0, disabled: true }
+    '03_Operatory logiczne': { max_points: 0, disabled: true }
+    '04_Operatory logiczne - dodatkowe': { max_points: 0, disabled: true }
+    '05_Operatory elementów': { max_points: 0, disabled: true }
+    '06_Operator wyrażeń JS': { max_points: 0, disabled: true }
+    '07_Operatory tablicowe': { max_points: 0, disabled: true }
