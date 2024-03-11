@@ -21,7 +21,32 @@ const collectionName = 'discounted';
     const collection = db.collection(collectionName);
 
     // HERE - modify this code!
-    let discounted;
+//     let discounted;
+// const cursor = collection.find({
+//   price: {
+//     $gt: 20,
+//   },
+// })
+//
+//     discounted = await cursor.toArray()
+//     console.log(discounted);
+
+    // lub
+
+    // let discounted = [];
+    // const cursor = collection.find({
+    //   price: {
+    //     $gt: 20,
+    //   },
+    // });
+    // while (await cursor.hasNext()) {
+    //   discounted.push(await cursor.next());
+    // }
+
+
+
+    console.log(discounted);
+
 
     // Assertions below
     console.assert(discounted && discounted.length === 5,
