@@ -21,10 +21,16 @@ const collectionName = 'cars';
     const collection = db.collection(collectionName);
 
     // HERE - modify this "find" code!
-    const cars = collection.find({});
+    const cars = collection.find({
+      $or: [
+        {migrated: {$exists: false}},
+        {year: {$not: {$type: 'number'}}},
+          ]
+    });
 
     // Assertions below - do not modify them!
     const carsArr = await cars.toArray();
+    console.log(carsArr)
     console.assert(carsArr && carsArr.length === 4, 'Should have 4 unmigrated entries', cars);
     console.assert(carsArr && carsArr[3] && carsArr[3].model === 'A6', 'Should have A6 as the last found model',
       cars[3])

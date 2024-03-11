@@ -10,32 +10,50 @@ const dbName = 'exercises';
 const collectionName = 'forumUsers';
 
 (async function () {
-  try {
-    // Connect using MongoClient
-    const client = await MongoClient.connect(url, { useUnifiedTopology: true });
-    console.log('Successfully connected to local MongoDB instance.');
+    try {
+        // Connect using MongoClient
+        const client = await MongoClient.connect(url, {useUnifiedTopology: true});
+        console.log('Successfully connected to local MongoDB instance.');
 
-    // Get DB instance
-    const db = client.db(dbName);
+        // Get DB instance
+        const db = client.db(dbName);
 
-    const collection = db.collection(collectionName);
+        const collection = db.collection(collectionName);
 
-    // HERE - modify this "find" code!
-    const forumUsersToUpgrade = collection.find({});
+        // HERE - modify this "find" code!
+        const forumUsersToUpgrade = collection.find({
+            badges: {
+                $elemMatch: {
+                    name: {
+                        $in: [`discussion-master`, `late-responder`, `frequent`]
+                    },
+                    createdAt:{
+                        $gt: new Date('2019-08-01T00:00:00Z')
+                    }
 
-    // Assertions below
-    const usersArr = await forumUsersToUpgrade.toArray();
-    console.assert(usersArr && usersArr.length === 2,
-      'Should find two forum users to upgrade', usersArr && usersArr.length);
-    console.assert(usersArr && usersArr[0] && usersArr[0].nick === 'bgaler9',
-      'Should find Bernetta as the first user to upgrade', usersArr && usersArr[0]);
+                }
 
-    await client.close();
+            },
+            'badges.name': {$ne: `premium`}
+        });
 
-    return process.exit(0);
-  } catch (err) {
-    console.log('Something went wrong!', err);
-    return process.exit(1);
-  }
+
+        // Assertions below
+        const usersArr = await forumUsersToUpgrade.toArray();
+
+        console.log(usersArr);
+
+        console.assert(usersArr && usersArr.length === 2,
+            'Should find two forum users to upgrade', usersArr && usersArr.length);
+        console.assert(usersArr && usersArr[0] && usersArr[0].nick === 'bgaler9',
+            'Should find Bernetta as the first user to upgrade', usersArr && usersArr[0]);
+
+        await client.close();
+
+        return process.exit(0);
+    } catch (err) {
+        console.log('Something went wrong!', err);
+        return process.exit(1);
+    }
 })();
 

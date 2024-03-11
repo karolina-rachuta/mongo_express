@@ -21,10 +21,22 @@ const collectionName = 'brokenLogs';
     const collection = db.collection(collectionName);
 
     // HERE - modify this "find" code!
-    const logs = collection.find({});
+    const logs = collection.find({
+      $where: `function() {
+          // for(var i = 0 ; i < this.additionalId.length; i++) {
+          for(let x of this.additionalId) {
+              if(x.charCodeAt(0) > 127) {
+                  return true;
+              }
+          }
+          return false;
+      }`,
+    });
 
     // Assertions below - do not modify them!
     const logsArr = await logs.toArray();
+
+    console.log(logsArr);
     console.assert(logsArr && logsArr.length === 3, 'Should find 3 broken logs', logsArr);
     console.assert(logsArr && logsArr[0] && logsArr[0].severity === 'warn',
       'Should have warn as the first broken log', logsArr);
