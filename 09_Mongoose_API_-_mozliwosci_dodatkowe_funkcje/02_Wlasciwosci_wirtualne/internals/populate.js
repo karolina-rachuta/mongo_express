@@ -1,4 +1,4 @@
-import { connectToMongoose } from './connect';
+import { connectToMongoose } from './connect.js';
 
 export const collectionName = 'books';
 
