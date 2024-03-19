@@ -29,8 +29,8 @@ import {runAssertions} from './internals/assertions.js';
         bookSchema.virtual('bookDetails').get(function () {
             return `${this.author} - ${this.title}`
         }).set(function (data) {
-            this.author = data.split(' - ')[0];
-            this.title = data.split(' - ')[1];
+            this.author = data.split('-')[0].trim();
+            this.title = data.split('-')[1].trim();
         })
 
 
