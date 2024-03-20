@@ -1,5 +1,5 @@
 import MongoClient from 'mongodb';
-import { runAssertions } from './internals/assertions.js';
+import {runAssertions} from './internals/assertions.js';
 
 // Connection url
 const url = 'mongodb://localhost:27017';
@@ -13,37 +13,77 @@ const collectionNameOut = 'outRaceResults';
 const collectionNameMerge = 'mergeRaceResults';
 
 (async function () {
-  try {
-    // Connect using MongoClient
-    const client = await MongoClient.connect(url, { useUnifiedTopology: true });
-    console.log('Successfully connected to local MongoDB instance.');
-
-    // Get DB instance
-    const db = client.db(dbName);
-
-    // Try to drop old collection, if existing
     try {
-      await db.dropCollection(collectionNameOut);
-      await db.dropCollection(collectionNameMerge);
-    } catch (err) {}
+        // Connect using MongoClient
+        const client = await MongoClient.connect(url, {useUnifiedTopology: true});
+        console.log('Successfully connected to local MongoDB instance.');
 
-    const collection = db.collection(collectionName);
+        // Get DB instance
+        const db = client.db(dbName);
 
-    // INSERT YOUR CODE HERE - for $out
+        // Try to drop old collection, if existing
+        try {
+            await db.dropCollection(collectionNameOut);
+            await db.dropCollection(collectionNameMerge);
+        } catch (err) {
+        }
 
-    // INSERT YOUR CODE HERE - for $merge
+        const collection = db.collection(collectionName);
+        let mergeData;
+        let outData;
+        // INSERT YOUR CODE HERE - for $out
 
-    // Assertions below
-    const outCollection = db.collection(collectionNameOut);
-    const mergeCollection = db.collection(collectionNameMerge);
-    await runAssertions(outCollection, mergeCollection);
+        outData = await collection.aggregate([
+            {
+                $addFields: {
+                    totalTime: {'$sum': '$lapTimes'}
+                }
+            },
+            {
+                $sort: {
+                    totalTime: 1
+                }
+            },
+            {
+                $out: "collectionTimeOut"
+            }
+        ]).toArray()
 
-    await client.close();
+        // INSERT YOUR CODE HERE - for $merge
+        mergeData = await collection.aggregate([
+            {
+                $addFields:
+                    {
+                        totalTime: {'$sum': '$lapTimes'}
+                    }
+            },
+            {
+                $sort: {
+                    totalTime: 1
+                }
+            }, {
+                $project: {
+                    lapTimes: 0
+                }
+            },
+            {
+                $merge:  'collectionTimeMerge'
+            }
+        ]).toArray();
 
-    return process.exit(0);
-  } catch (err) {
-    console.log('Something went wrong!', err);
-    return process.exit(1);
-  }
+        console.log(mergeData, outData)
+
+        // Assertions below
+        const outCollection = db.collection(collectionNameOut);
+        const mergeCollection = db.collection(collectionNameMerge);
+        await runAssertions(outCollection, mergeCollection);
+
+        await client.close();
+
+        return process.exit(0);
+    } catch (err) {
+        console.log('Something went wrong!', err);
+        return process.exit(1);
+    }
 })();
 
